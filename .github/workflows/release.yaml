@@ -42,5 +42,5 @@ jobs:
         with:
           config: .github/chart-releaser.yml
         env:
-          CR_TOKEN: "${{ secrets.GH_TOKEN }}"
+          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           CR_SKIP_EXISTING: true
