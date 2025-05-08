@@ -31,6 +31,7 @@ jobs:
       - name: Add Repositories
         run: |
           helm repo add bitnami https://charts.bitnami.com/bitnami
+          helm repo add vivaa-permify https://notablehealth.github.io/permify-helm-charts
           helm repo update
 
       - name: Update Helm Dependencies
@@ -42,5 +43,5 @@ jobs:
         with:
           config: .github/chart-releaser.yml
         env:
-          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          CR_TOKEN: "${{ secrets.GH_TOKEN }}"
           CR_SKIP_EXISTING: true
