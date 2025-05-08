@@ -167,3 +167,6 @@ autoscaling:
 nodeSelector: {}
 tolerations: []
 affinity: {}
+
+# Init containers configuration
+initContainers: []

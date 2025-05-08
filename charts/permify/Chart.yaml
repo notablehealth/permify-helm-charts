@@ -8,7 +8,7 @@ icon: https://github.com/Permify/helm-charts/assets/39353278/76147e5c-6e86-46b0-
 apiVersion: v2
 
 # The name of the Helm chart.
-name: permify
+name: vivaa-permify
 
 # A short description of what the Helm chart deploys.
 description: Helm charts for deploying and managing Permify in Kubernetes environments.
@@ -17,7 +17,7 @@ description: Helm charts for deploying and managing Permify in Kubernetes enviro
 type: application
 
 # The version of the Helm chart.
-version: 0.4.0
+version: 1.0.3
 
 # The specific application version that this Helm chart is designed to deploy.
 appVersion: "v1.3.5"
