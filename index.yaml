@@ -1,0 +1,35 @@
+apiVersion: v1
+entries:
+  vivaa-permify:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/signKey: |
+        fingerprint: B1A35EA6E5DE5DB2C787AF7A1BFCA5ED7F16FEA2
+        url: https://permify.github.io/helm-charts/pgp-public-key.asc
+      category: Security
+    apiVersion: v2
+    appVersion: v1.3.5
+    created: "2025-05-08T18:12:49.096098866Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.14.1
+    description: Helm charts for deploying and managing Permify in Kubernetes environments.
+    digest: 7981ec566aa6ad582fcd23787954d5c6d61b746426e35bfce7e893d685f76cdc
+    home: https://permify.co
+    icon: https://github.com/Permify/helm-charts/assets/39353278/76147e5c-6e86-46b0-bc3d-cf67947c37d0
+    keywords:
+    - security
+    - abac
+    - permissions
+    - fine-grained-access-control
+    - zanzibar
+    - rebac
+    name: vivaa-permify
+    type: application
+    urls:
+    - https://github.com/notablehealth/permify-helm-charts/releases/download/vivaa-permify-1.0.5/vivaa-permify-1.0.5.tgz
+    version: 1.0.5
+generated: "2025-05-08T18:12:49.096105759Z"
